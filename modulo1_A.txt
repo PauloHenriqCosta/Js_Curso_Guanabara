@@ -1,0 +1,20 @@
+//cliente VS server | roda client VS roda servidor
+// jornalista(html/conteúdo) Designer(CSS/layoult) Programador(js*/interação cliente) }client  *é linguagem
+
+// inspecionar > debugger > disable js
+//>alterar js que chegou na máquina
+
+//1970>DARPA>EUA>rede proteção(Arpanet)> Internet
+//1993>Inglaterra> TimBernes (html/http/WWW)> CERN
+//Mark Anderson Mosaic
+//1994 Anderson+Clark: NetScape> Mozila
+//1995 Brendon Nike> Mocka (também estava nascendo Java)> pegaram boom: Mocka para JavaScript
+//1997 Netscape procura ecma para padronizar js > ecmascript
+//2002 (encerra treta Microsoft VS Netscape) > Netscape fale e criam org Mozilla
+//2008 > Google Chrome 2009 Motor V8 para rodar Js
+//2010> NodeJs máquina que roda js fora do navegador.
+
+//Framworks Js: Jquery(lib), Angular(google), React(facebook), Vue(ex programador Google)
+//Possível jogos com Js (+libs)
+
+Linguagem marcação, lingugagem estilo, linguagem programação

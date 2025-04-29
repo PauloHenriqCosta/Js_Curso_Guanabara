@@ -18,3 +18,59 @@
 //Possível jogos com Js (+libs)
 
 Linguagem marcação, lingugagem estilo, linguagem programação
+
+Estacionamento VS Terreno VS Computador
+Vagas VS variáveis (var, let, =null)
+
+= "Luva de Pedreiro"
+
+TIPOS ASPAS:
+"(dupla)
+'(simples)
+`(crase)
+
+Var/Let: 
+-começa com letra, sem espaço, pode ter cifrão $.
+-case sensitive ("a" != "A")
+
+Terminal:
+>node chama >.exit 
+
+ATENÇÃO: 
+-number (abarca int e float) NaN
+-numero com . são strings.
+.typeof n
+-js null é objeto
+-arrays sao object em js
+
+"Symbol" 
+
+
+NÚMERO(number)
+
+
+string
+
+window.prompt => retorna string
+
+      //number + number > faz adição
+      //string + string > faz concatenação
+      // no js pode usar somente Number ou Number.parseFloat(se precisar)
+      // para string: String(n) OU n.toString()
+
+FORMATANDO strings
+
+var s='JavaScript'
+`Eu estou aprendendo ${s}`(placeholder) CRASE (botão ao lado de "{")
+
+LEMBRAR: "Case Sensitive"
+
+Trabalhando com Strings
+s.lenght
+s.toUpperCase() => lembrar de colocar ()
+s.toLowerCase() => lembrar de colocar ()
+
+FORMATANDO NÚMERO
+
+n1.toFixed(2) => duas casas decimais.
+

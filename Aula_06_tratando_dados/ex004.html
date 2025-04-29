@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font: normal 15pt Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var nome = window.prompt("Qual é o seu nome?");
+      document.writeln(
+        `Olá <h1>${nome.toUpperCase()}</h1> seu nome tem ${nome.length} letras.`
+      ); //aceita html dentro de ``
+
+      var sobrenome = window.prompt(`${nome}, qual é o seu sobrenome?`);
+
+      document.writeln(
+        `<br><br>Vou anotar para não esquecer, seu nome completo é ${nome} ${sobrenome}.`
+      );
+
+      document.writeln(
+        `<br><br>Seu nome de usuário é ${nome.toLowerCase()}${sobrenome.toLowerCase()}.`
+      );
+    </script>
+  </body>
+</html>

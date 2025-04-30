@@ -73,4 +73,60 @@ s.toLowerCase() => lembrar de colocar ()
 FORMATANDO NÚMERO
 
 n1.toFixed(2) => duas casas decimais.
+n1.toFixed(2).replace(".", ",")
 
+n1.toLocaleString('pt-BR', {syle: 'currency', currency: 'BRL'})
+
+OPERADORES
+-aritméticos
+-atribuição
+-relacionais
+-lógicos
+-ternário
+(tem mais)
+
+ARITMÉTICOS 
+5/2=2.5 (para js considera o real)
+5%2=1 (resto divisão inteira)
+5**2=25
+
+
+n=n+4 > n+=4
+n=n*4 > n*=4
+++n ou --n (pré e pós processamento)
+
+b++=b+1
+
+RELACIONAIS
+ >>primeiro faz o aritméticos e depois os relacionais.
+
+5==5 (true)
+5=='5' (true) //pro js isso é true
+5==='5' (false) //operador identidade (===igualdade restrita)
+
+0 ==false (true):
+      Js é fracamente tipada (converte tipos automaticamente) > força e deixa false=0 e True=1
+null == undefined (true)
+nul === undefined (false)
+'0'==false(true)
+[] == false (true)
+[] === false (false)
+
+LOGICOS
+!
+&& (e) 
+|| (ou=disjunção)
+
+
+PRECEDÊNCIA
+1ºAritméticos (respeita ordem dos aritméticos)
+2ºRelacionais (ordem de aparição)
+3ºLógicos sempre na ordem: Não(!), E(&&), OU(||)
+
+"Primeiro faz as contas para saber se é possível manter uma casa,
+Depois em segundo lugar vê se há uma relação para morar junto
+Por último verifica se tem lógica estabelecer tudo isso agora."
+
+
+TERNARIO
+?: > teste?true:false

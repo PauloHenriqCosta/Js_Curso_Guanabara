@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font: normal 15pt Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      var idade = parseInt(window.prompt("Digite a sua idade:"));
+
+      var resultado;
+
+      if (idade < 16) {
+        resultado = "Voto Proibido";
+      } else if (idade >= 16 && idade < 18) {
+        resultado = "Voto Facultativo";
+      } else {
+        resultado = "Voto Obrigatório";
+      }
+
+      window.alert(resultado);
+    </script>
+  </body>
+</html>

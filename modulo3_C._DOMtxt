@@ -1,0 +1,26 @@
+MÓDULO 3- C- ENTENDENDO O DOM (Document Object Model)
+
+-Fazer árvore DOM de qualquer site
+
+INSTALAR:
+-Node exec
+-Watch in chrome
+
+DOM> só existe no site.
+
+Window: location | document (html[parent]:head[meta, title]>body:[child]) | history
+>>>>árvore  hierarquica do site (organiza distribuição conteúdo)
+
+window.document.write(window.document.url) } permite navegar dentro da arvore.
+
+MANEIRAS DE NAVEGAR NOS ELEMENTOS (getElementsBy...)
+-Marca (getElementsByTagName()[numero_de_qual]) } acesso em lote.* >body, li, p...
+-por ID (#) (getElementbyID >sem s)
+-por Nome (usado geralmente em formulário)
+-por Classe (.) (getElementsByClassName)
+-por Seletor (Css) (querySelectorAll(".nome")) => seleciona qualquer classe Css
+
+
+
+*atribui a variável e depois pode pedir para document.write mostrar isso na tela.
+

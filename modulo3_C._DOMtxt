@@ -1,4 +1,4 @@
-MÓDULO 3- C- ENTENDENDO O DOM (Document Object Model)
+MÓDULO 3- C- ENTENDENDO O DOM (Document Object Model){existe navegador dentro html5}
 
 -Fazer árvore DOM de qualquer site
 
@@ -24,3 +24,11 @@ MANEIRAS DE NAVEGAR NOS ELEMENTOS (getElementsBy...)
 
 *atribui a variável e depois pode pedir para document.write mostrar isso na tela.
 
+EVENTOS DOM
+>tudo que pode acontecer com uma div (ex:mouse {mouseenter/mousevome/mousedown/mouseup/click/mouseout})
+
+>>touch events (mouse event do mobile)
+
+google: js DOM events script (event reference, mozilla)
+
+>>>inspecionar mostra erro (aviso erro)

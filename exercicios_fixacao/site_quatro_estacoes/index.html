@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/4_estacoes_icone.jpg" type="image/jpg" />
+    <title>As quatro estações</title>
+
+    <style>
+      #foto_estacoes {
+        width: 300px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <img
+        src="./assets/estações-do-ano-825x542-1.png"
+        alt="imagem com 4 árvores, cada uma representando uma estação do ano."
+        id="foto_estacoes"
+      />
+    </section>
+    <section>
+      <h1>Escolha uma estação do ano:</h1>
+    </section>
+
+    <section name="estacao">
+      <input
+        type="button"
+        value="Primavera"
+        id="primavera"
+        onclick="tema_estacao(this.id)"
+      />
+      <input
+        type="button"
+        value="Verão"
+        id="verao"
+        onclick="tema_estacao(this.id)"
+      />
+      <input
+        type="button"
+        value="Outono"
+        id="outono"
+        onclick="tema_estacao(this.id)"
+      />
+      <input
+        type="button"
+        value="Inverno"
+        id="inverno"
+        onclick="tema_estacao(this.id)"
+      />
+    </section>
+
+    <script>
+      function tema_estacao(estacao) {
+        switch (estacao) {
+          case "primavera":
+            document.getElementById("foto_estacoes").src =
+              "./assets/primavera.jpg";
+            break;
+
+          case "verao":
+            document.getElementById("foto_estacoes").src = "./assets/verao.jpg";
+            break;
+
+          case "outono":
+            document.getElementById("foto_estacoes").src =
+              "./assets/outono.jpg";
+            break;
+
+          case "inverno":
+            document.getElementById("foto_estacoes").src =
+              "./assets/inverno.jpg";
+            break;
+
+          default:
+            document.getElementById("foto_estacoes").src =
+              "./assets/estações-do-ano-825x542-1.png";
+        }
+      }
+    </script>
+  </body>
+</html>

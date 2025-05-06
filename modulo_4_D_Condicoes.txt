@@ -1,6 +1,20 @@
-CONDIÇÕES EM js
--Simples (bloco de falso não existe)
--Compostas 
--Aninhadas
--Múltiplas
+<<<CONDIÇÕES EM js>>>
+
+-SIMPLES (bloco de falso não existe) (IFs sem else)
+-COMPOSTAS 
+
+-ANINHADAS (compostas sobrepostas: se isso, depois se aquilo...ai então faça isso)
+if, else(if, else), if....
+
+
+-MÚLTIPLAS (uma aninhada para valores fixos)
+switch(expressão){
+    case:... break
+    case:... break
+    default:... (break opcional)
+}
+
+
+new Date(); .getDay() {domingo é índice 0}
+
 

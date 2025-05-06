@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semáforo</title>
+    <link rel="icon" href="assets/icon.png" type="image/png" />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+
+      #formulario {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      #semaforo {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="formulario">
+        <h2>Insira um número de 1 a 100:</h2>
+        <input type="number" name="numero_enviado" id="numero_enviado_id" />
+        <input type="button" value="Enviar" onclick="trocar_cor_semaforo()" />
+      </div>
+      <img
+        id="semaforo"
+        src="assets/Semaforo.jpg"
+        alt="Imagem de um semáforo apagado"
+      />
+    </div>
+
+    <script>
+      function cor_semaforo(numero) {
+        var numero = Number(document.getElementById("numero_enviado_id").value);
+        if (numero >= 0 && numero <= 40) {
+          return "verde";
+        } else if (numero >= 41 && numero <= 61) {
+          return "amarelo";
+        } else if (numero >= 62 && numero <= 100) {
+          return "vermelho";
+        } else {
+          window.alert("Atenção, digite um número de 1 a 100");
+        }
+      }
+
+      function trocar_cor_semaforo() {
+        var numero = Number(document.getElementById("numero_enviado_id").value);
+        var cor = cor_semaforo(numero);
+        if (cor === "verde") {
+          document.getElementById("semaforo").src = "assets/verde.jpg";
+        } else if (cor === "amarelo") {
+          document.getElementById("semaforo").src = "assets/amarelo.jpg";
+        } else if (cor === "vermelho") {
+          document.getElementById("semaforo").src = "assets/vermelho.jpg";
+        } else {
+          document.getElementById("semaforo").src = "assets/Semaforo.jpg";
+        }
+      }
+    </script>
+  </body>
+</html>

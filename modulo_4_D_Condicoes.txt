@@ -1,0 +1,6 @@
+CONDIÇÕES EM js
+-Simples (bloco de falso não existe)
+-Compostas 
+-Aninhadas
+-Múltiplas
+

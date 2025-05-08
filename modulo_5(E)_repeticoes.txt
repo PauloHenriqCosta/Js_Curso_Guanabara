@@ -1,0 +1,11 @@
+REPETIÇÕES (=LAÇOS/LOOPING)
+-usa estrutura de controle
+(exemplo pizza > comer fatia)
+
+-WHILE
+-DO WHILE
+
+-Com variável de controle (inicialização, teste logico, complemento)
+-for (inicio;teste;incr){} 
+
+USO DO DEBUGGER

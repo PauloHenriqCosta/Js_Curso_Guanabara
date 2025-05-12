@@ -1,0 +1,29 @@
+VARIÁVEIS COMPOSTAS (ARRAYS/VETOR(pt-br))
+
+-Simples (var/let)= armazena um valor por vez
+-Compostas= armazena vários valores numa estrutura (dicionário?)
+
+(exemplo estacionamento, um id para cada carro > agora encapsula +coloca índice)
+
+COMPOSIÇÃO ARRAY:
+Array é igual a um conjunto de elementos organizados por índice(chave) e cada elemento tem seu conteúdo.
+
+num[i]=x
+num.push() >>já coloca no último
+num.length >>> sem parênteses para js "é um atributo, não um método"
+num.sort() >>> ♫♫♫ esse vetor não é a casa da mãe Joana ♫♫♫  (organiza em ordem crescente)
+console.log(num[0])
+num.indexOf(element)
+
+-1 de aviso= procurei e não achei
+
+
+________________FUNÇÕES___________________
+
+Funções: quando chama ou quando acontece o evento.
+
+(chamada(parâmetro){
+    atividade --ação
+}=>retorno)
+
+PARÂMETROS OPCIONAIS (n1=0...)

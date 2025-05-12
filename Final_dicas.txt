@@ -1,0 +1,10 @@
+PRÓXIMOS PASSOS
+-curso html5+CSS
+-funções (aprofundar)
+-javascript funcional
+-objetos (índices passam a ter identificador literal, pode guardar função "métodos")
+-modularização
+-RegEx (expressões regulares, validar dados)
+-Json
+-AJAX (rolagem infinita)
+-NoseJS (rodar o script no servidor)
